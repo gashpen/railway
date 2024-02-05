@@ -1,0 +1,18 @@
+.slider_location{
+    display: flex;
+    flex-direction: column;
+}
+.ant-menu-item-only-child{
+    height: 250px !important;
+    padding: 0 !important;
+}
+.ant-menu-submenu-title{
+    padding: 0 !important;
+   
+}
+.ant-menu-submenu-title>svg{
+    margin-right: 30px !important;
+}
+.ant-slider-horizontal{
+    margin: 7px 12px !important;
+}

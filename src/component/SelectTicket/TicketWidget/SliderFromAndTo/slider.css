@@ -1,0 +1,37 @@
+.multi-range-slider {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.caption {
+    bottom: -25px !important;
+}
+
+.max-caption,
+.min-caption {
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-size: 16px !important;
+    box-shadow: none !important;
+}
+
+.thumb::before {
+    box-shadow: none !important;
+    border: none !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin: -5px -12px !important;
+}
+
+.bar-inner {
+    border: none !important;
+    box-shadow: none !important;
+    height: 10px !important;
+    background-color: #FFA800 !important;
+}
+
+.bar-right,
+.bar-left {
+    box-shadow: none !important;
+    border: 1px solid #fff !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}

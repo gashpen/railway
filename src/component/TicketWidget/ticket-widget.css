@@ -1,0 +1,23 @@
+.header_widget-wrap{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 641px) and (max-width: 1260px) {
+    .header_widget-wrap{
+        flex-direction: column;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 640px) {
+  }
+
+.header_widget-head{
+    font-size: 72px;
+    font-weight: 100;
+    margin-right: 100px;
+}
+
+.header_widget-head>span{
+    font-weight: 700;
+}

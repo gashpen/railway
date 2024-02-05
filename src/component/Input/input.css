@@ -1,0 +1,53 @@
+.input {
+    height: 60px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+.input_swith-btn {
+    background-image: url(../../assets/a60db9adb307af0d4196fdf6b768b43d.png);
+    background-repeat: no-repeat;
+    width: 35px;
+    background-size: 24px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.input_location {
+    background-image: url(../../assets/Vector.svg);
+    background-position-x: 288px;
+    padding: 0 40px 0 30px;
+    font-size: 24px;
+}
+
+.input_date {
+    background-repeat: no-repeat;
+    background-image: url(../../assets/Group.svg);
+    background-position-x: 278px;
+    padding: 0 50px 0 30px;
+}
+
+.input_location-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_headers {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.input_selection{
+    padding: 5px 10px 5px;
+    background-position-y: center;
+    background-position-x: 260px;
+    background-size: 20px;
+    width: 100%;
+}

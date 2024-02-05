@@ -1,0 +1,64 @@
+.howitwork{
+    padding: 100px 280px;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(160deg, rgba(255,214,0,0.55) 0%, rgba(0,212,255,0) 100%);
+}
+.howitwork::before{
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/359fa1466fc2860526cab5ac824d0ba5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+}
+
+.howitwork::after{
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(181, 110, 11, 0.559);
+    z-index: -5;
+}
+
+.howitwork_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.howitwork_head>h3{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 70px;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.howitwork_button{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.howitwork_icon-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 105px 0;
+    padding: 0 125px;
+}
+.howitwork_img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+.howitwork_img>img{
+    width: 160px;
+}

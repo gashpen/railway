@@ -1,0 +1,76 @@
+.header {
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    width: 100%;
+    background: url(../../assets/552ec05b23bca029a735fc146cf0ebff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+    transform: scale(-1, 1);
+}
+.header_ticket{
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+.header_ticket::before {
+    content: '';
+    width: 100%;
+    background: url(../../assets/header-ticket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.header_logo-wrap {
+    font-size: 36px;
+    padding: 15px 0;
+    color: #E5E5E5;
+    position: relative;
+    font-weight: 900;
+    padding-left: 260px
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    color: #E5E5E5;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.header_logo-wrap::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.header_navigate {
+    background-color: #292929;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 25px 0;
+}
+
+.header_navigate>ul {
+    display: flex;
+    margin-left: 260px;
+}
+
+.header_navigate-list:not(:last-child) {
+    margin-right: 80px;
+}
